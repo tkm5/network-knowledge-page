@@ -25,3 +25,9 @@
   --sl-color-hairline-shade: #e4e4e7;
   --sl-color-hairline-light: #f4f4f5;
 }
+
+.hero h1,
+.hero .tagline {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
